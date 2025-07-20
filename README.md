@@ -35,45 +35,11 @@ This project performs in-depth **time series analysis** and **forecasting** on m
 ├── app.py                   # Streamlit app
 ├── arima\_gold\_model.pkl     # Trained ARIMA model (auto-generated)
 ├── sarima\_gold\_model.pkl    # Trained SARIMA model (auto-generated)
-├── model\_training.ipynb     # Main analysis & modeling notebook (optional)
+├── model\_training.ipynb     # Main analysis & modeling notebook
 ├── requirements.txt         # Required packages
 └── README.md                # Project overview
 
 ````
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/gold-price-forecasting.git
-cd gold-price-forecasting
-````
-
-### 2. Install Dependencies
-
-Install required libraries using pip:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Streamlit App
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📈 Example Forecast Visualization
-
-*Forecast using SARIMA model (green) and 95% confidence interval:*
-
-![Forecast Example](https://github.com/PratikPhysics/time_series/blob/main/sarima.png)
-
 ---
 
 ## 🧠 Model Details
@@ -97,6 +63,12 @@ streamlit run app.py
 ADF Statistic: -1.56
 p-value: 0.51
 Conclusion: Time series is **non-stationary**. Differencing is required.
+
+Concusions based on ACF and PACF Plots -> 
+(1) Significant spikes are seen at lag 10
+(2) PACF cuts after lag (p = 1)
+(3) ACF cuts after lag (q = 1)
+
 ```
 
 ---
@@ -113,24 +85,15 @@ Conclusion: Time series is **non-stationary**. Differencing is required.
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source 
 
 ---
 
 ## 👤 Author
 
-Developed by **\[Pratik Ramteke]**
+Developed by **\[Madhura Tonpe]**
 📧 Madhura.tonpe@gmail.com
 🌐 github.com/MadhuraTonpe165/time_series_model
-
----
-
-## 🔗 Related Projects
-
-* Time Series Forecasting with Prophet
-* Stock Price Prediction using LSTM
-
-```
 
 ---
 
