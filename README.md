@@ -120,8 +120,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 Developed by **\[Pratik Ramteke]**
-📧 [your.email@example.com](pratikphysics1991@gmail.com)
-🌐 [github.com/your-username](https://github.com/PratikPhysics/time_series/)
+📧 Madhura.tonpe@gmail.com
+🌐 github.com/MadhuraTonpe165/time_series_model
 
 ---
 
